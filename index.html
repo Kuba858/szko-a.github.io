@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan & BAPE Shop</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.zdjęcie {
+    width: 100%;
+    height: 300px;
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.całość{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.buty {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.buty img {
+    width: 100%;
+    height: auto;
+}
+
+.buty h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.buty p {
+    font-size: 16px;
+    color: #555;
+}
+
+.buty button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buty button:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Jordan 3</a></li>
+                <li><a href="#">Jordan 4</a></li>
+                <li><a href="#">Jordan 5</a></li>
+                <li><a href="#">BAPE Bluzy</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="zdjęcie">
+            <img src="https://c0.wallpaperflare.com/preview/506/226/547/store-shop-interor-retail.jpg" style="width: 100%;" alt="Jordan & BAPE Collection">
+        </section>
+        <section class="całość">
+            <div class="buty">
+                <h2>Jordan 3</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTttl2jvNKykODoa5Z3VC8vgMcJbJsK66-BBtq89XFm4mH4BLDdmtTpemzF7sZjmQnaz0H9ZFdwTm6eyqaU9tde1b5JHxjUv9rIsLu5DpJa55Z-8FxMbfts-_8" alt="Jordan 3">
+                <p>Retro White Cement Reimagined</p>
+                <button>Add to cart - 1800zł</button>
+            </div>
+            <div class="buty">
+                <h2>Jordan 4</h2>
+                <img src="https://n-hype.com/cdn/shop/files/Jordan4RetroRedThunder-CT8527-016-N-hype-1.webp?v=1686642650&width=2048" alt="Jordan 4">
+                <p>Retro Red Thunder</p>
+                <button>Add to cart - 2300zł</button>
+            </div>
+            <div class="buty">
+                <h2>Jordan 5</h2>
+                <img src="https://aplug.pl/cdn/shop/products/jordan-air-jordan-5-unc_19517470_44650763_2048.png?v=1701243018" alt="Jordan 5">
+                <p>University Blue</p>
+                <button>Add to cart - 1700zł</button>
+            </div>
+            <div class="buty">
+                <h2>BAPE Bluza</h2>
+                <img src="https://n-hype.com/cdn/shop/files/BAPEABCCamoSharkFullZipHoodiePinkFrontLodzPolskaNHype.png?v=1716887484&width=2048" alt="BAPE Hoodie">
+                <p>Wersja Różowa</p>
+                <button>Add to cart - 3200zł</button>
+            </div>
+        </section>
+    </main>
+   
+</body>
+</html>
